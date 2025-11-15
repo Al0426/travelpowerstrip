@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Travel Power Strip ORICO – 4 Soket AC + 2 Port USB (1 USB-C). Kabel 4 kaki terbungkus, ringkas & aman. Cocok untuk travel, WFH, kantor, atau liburan!" />
+  <title>Travel Power Strip ORICO 4-in-1 | Colokan & Charger All-in-One – Ceremonye</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #10b981;
+      --dark: #1e293b;
+      --gray: #f1f5f9;
+      --light: #ffffff;
+      --yellow: #fbbf24;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: var(--dark);
+      background-color: #fafafa;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 20px 0;
+      color: var(--dark);
+      line-height: 1.3;
+    }
+
+    .hero-sub {
+      font-size: 1.3rem;
+      color: var(--primary);
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto 25px;
+      color: #475569;
+    }
+
+    .price {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin: 25px 0;
+    }
+
+    .hero-media {
+      max-width: 90%;
+      margin: 30px auto;
+      display: block;
+      border-radius: 16px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+      background: white;
+    }
+
+    .section {
+      padding: 70px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 1.9rem;
+      margin-bottom: 50px;
+      position: relative;
+    }
+
+    .section-title::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 4px;
+      background: var(--primary);
+      margin: 10px auto;
+      border-radius: 2px;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .feature-card {
+      flex: 1;
+      min-width: 280px;
+      max-width: 320px;
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .feature-icon {
+      font-size: 2.2rem;
+      color: var(--primary);
+      margin-bottom: 18px;
+    }
+
+    .feature-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+    }
+
+    .feature-img {
+      width: 100%;
+      border-radius: 12px;
+      margin: 15px 0;
+      box-shadow: 0 5px 12px rgba(0,0,0,0.06);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin-top: 30px;
+    }
+
+    .gallery-item {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.07);
+      transition: transform 0.3s;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.02);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      display: block;
+    }
+
+    .specs {
+      background: var(--gray);
+      padding: 25px;
+      border-radius: 14px;
+      margin: 40px auto;
+      max-width: 700px;
+    }
+
+    .specs h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .specs ul {
+      list-style: none;
+      text-align: left;
+      padding-left: 25px;
+    }
+
+    .specs li {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .specs li::before {
+      content: "✓ ";
+      color: var(--primary);
+      font-weight: bold;
+    }
+
+    /* === REVIEWS === */
+    .reviews {
+      background-color: #f8fafc;
+    }
+
+    .review-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .review-card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .review-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .review-avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      color: var(--dark);
+      margin-right: 12px;
+      font-size: 1.1rem;
+    }
+
+    .review-info h4 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+
+    .review-info p {
+      margin: 3px 0 0;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+
+    .stars {
+      color: var(--yellow);
+      margin: 5px 0;
+    }
+
+    /* === CTA === */
+    .cta {
+      background: linear-gradient(to right, var(--primary), #059669);
+      color: white;
+      text-align: center;
+      padding: 60px 0 70px;
+    }
+
+    .cta h2 {
+      font-size: 2.1rem;
+      margin-bottom: 20px;
+    }
+
+    .ooef {
+      max-width: 500px;
+      margin: 30px auto;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 1.7rem; }
+      .hero-sub { font-size: 1.15rem; }
+      .price { font-size: 1.7rem; }
+      .features { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Travel Power Strip, ORICO<br><span style="color:var(--primary)">4 Outlets + 2 USB Ports (1 USB-C)</span></h1>
+      <div class="hero-sub">🔌 4 Soket AC | 🔌 2 Port USB (1 USB-C) | 📏 Kabel 4 Kaki Terbungkus</div>
+      <p>Ringkas, aman, dan praktis untuk travel, WFH, kantor, atau liburan. Semua perangkat bisa dicharge sekaligus — tanpa rebutan colokan!</p>
+
+      <div class="price">
+        Rp179.000
+      </div>
+
+      <img 
+        src="https://cdn.webfastcdn.com/image/714a2350bdc59f498051424d0e07971f8aa9e371-700.png" 
+        alt="ORICO Travel Power Strip – 4 Soket + 2 USB Ports"
+        class="hero-media"
+        loading="lazy"
+      >
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Kenapa Traveler & Digital Nomad Pilih Ini?</h2>
+      <div class="features">
+        <div class="feature-card">
+          <div class="feature-icon">🔌</div>
+          <h3>4 Soket AC + 2 Port USB</h3>
+          <img 
+            src="https://cdn.webfastcdn.com/image/3c3a6bc27d0f06b35f7f110be39165b8aa63a202-600.png" 
+            alt="4 Soket dan 2 Port USB"
+            class="feature-img"
+            loading="lazy"
+          >
+          <p>Colok laptop, HP, tablet, earbud, power bank — semua bisa dipakai bersamaan.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>USB-C Fast Charging</h3>
+          <img 
+            src="https://cdn.webfastcdn.com/image/692bbb5ead782933db55dffb5bf701104020d733-600.png" 
+            alt="Port USB-C charging cepat"
+            class="feature-img"
+            loading="lazy"
+          >
+          <p>Port USB-C (hingga 18W) — cocok untuk HP flagship & tablet modern.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧳</div>
+          <h3>Kabel Terbungkus Rapi</h3>
+          <img 
+            src="https://cdn.webfastcdn.com/image/375da906f0f44be4c0859dfbfe8af964fe7403cb-600.jpeg" 
+            alt="Kabel wrapped cord anti kusut"
+            class="feature-img"
+            loading="lazy"
+          >
+          <p>Kabel 4 kaki (~1.2m) dengan desain **wrapped cord** — tidak kusut, mudah disimpan.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Aman & Tahan Panas</h3>
+          <img 
+            src="https://cdn.webfastcdn.com/image/c5adcf2dd6171dc718c4a4d5331161337c7c2981-600.jpeg" 
+            alt="Proteksi sirkuit aman"
+            class="feature-img"
+            loading="lazy"
+          >
+          <p>Proteksi over-current, short-circuit, dan over-heat. Material tahan panas.</p>
+        </div>
+      </div>
+
+      <div class="specs">
+        <h3>Spesifikasi Lengkap</h3>
+        <ul>
+          <li><strong>Merek</strong>: ORICO (Original)</li>
+          <li><strong>Soket AC</strong>: 4 buah</li>
+          <li><strong>Port USB</strong>: 1 × USB-A (5V/2.4A), 1 × USB-C (5V/3A, max 18W)</li>
+          <li><strong>Kabel</strong>: 4 kaki (~1.2 meter), wrapped design</li>
+          <li><strong>Ukuran</strong>: 12 × 6 × 3 cm</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section" style="background:#f8f9fa">
+    <div class="container">
+      <h2 class="section-title">Detail & Penggunaan Nyata</h2>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="https://cdn.webfastcdn.com/image/b9ffa61e679ac0104da776f0890522b7facd5da0-600.jpeg" loading="lazy" alt="Ukuran di tangan">
+        </div>
+        <div class="gallery-item">
+          <img src="https://cdn.webfastcdn.com/image/a3c9737159885c441b8043355b75dc729bc85210-600.jpeg" loading="lazy" alt="Dipakai di meja kerja">
+        </div>
+        <div class="gallery-item">
+          <img src="https://cdn.webfastcdn.com/image/f12e0b6dbe3fa8fe4e29c0a1a5ce5becefe22609-600.jpeg" loading="lazy" alt="Dalam tas travel">
+        </div>
+        <div class="gallery-item">
+          <img src="https://cdn.webfastcdn.com/image/f15f80065b70b9630571b42d5d6f0c5f483d8df6-600.jpeg" loading="lazy" alt="Close-up port">
+        </div>
+        <div class="gallery-item">
+          <img src="https://cdn.webfastcdn.com/image/85db8a4b74b6c74ba43f52c89aed0ce004be69da-600.png" loading="lazy" alt="Warna hitam elegan">
+        </div>
+        <div class="gallery-item">
+          <img src="https://cdn.webfastcdn.com/image/5d5c34a8eb1c5c59089c6f104322dfb2d121f2bb-600.png" loading="lazy" alt="Kabel tergulung rapi">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="section reviews">
+    <div class="container">
+      <h2 class="section-title">Ulasan Pelanggan </h2>
+      <div class="review-grid">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">A</div>
+            <div class="review-info">
+              <h4>Anisa, 27</h4>
+              <p>Freelancer • Bandung</p>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>“Bawa ke Bali buat kerja remote — lifesaver banget! Semua perangkat bisa colok bareng. Kabelnya nggak kusut, enak banget.”</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">R</div>
+            <div class="review-info">
+              <h4>Rudi, 34</h4>
+              <p>Content Creator • Jakarta</p>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>“Dulu bawa 3 colokan, sekarang cukup ini. USB-C-nya ngecas iPhone 15 cepat banget. Desainnya juga keren.”</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">S</div>
+            <div class="review-info">
+              <h4>Sinta, 22</h4>
+              <p>Mahasiswa • Yogyakarta</p>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>“Beli buat kos. Hemat colokan & nggak rebutan sama temen. Ukurannya pas di meja kecil.”</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">B</div>
+            <div class="review-info">
+              <h4>Budi, 41</h4>
+              <p>WFH • Surabaya</p>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>“Pakai di meja kerja: laptop, HP, lampu, earbud — semua nyala. Kabelnya kuat, nggak lemes kayak colokan murahan.”</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">D</div>
+            <div class="review-info">
+              <h4>Dewi, 29</h4>
+              <p>Guru Online • Medan</p>
+            </div>
+          </div>
+          <div class="stars">★★★★☆</div>
+          <p>“Bagus banget! Cuma agak berat dikit, tapi wajar karena materialnya solid. Puas!”</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">F</div>
+            <div class="review-info">
+              <h4>Fajar, 31</h4>
+              <p>Travel Blogger • Bali</p>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>“Udah 3 bulan dipakai terus — masih kinclong & nggak panas. Rekomended buat traveler!”</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">L</div>
+            <div class="review-info">
+              <h4>Lina, 25</h4>
+              <p>Desainer • Bandung</p>
+            </div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <p>“Warnanya match sama setup meja kerja. Kabelnya rapi, bisa digulung & masuk pouch kecil. Worth it!”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA with OrderOnline Embed -->
+  <section class="cta">
+    <div class="container">
+      <h2>🔌 Pesan Sekarang — Stok Terbatas!</h2>
+      <p>Langsung dikirim dari gudang Jakarta. 128 unit terjual minggu ini.</p>
+
+      <!-- 🔴 OrderOnline Embed -->
+      <div class="ooef">
+        <form class="orderonline-embed-form" data-username="emma" data-product-slug="t7guihgh6tf" data-product-id="6918bcd8742fb2c42000ccc5" id="oo-embed-form-t7guihgh6tf-5569" data-origin="orderonline">
+          <div class="ooef-loader">
+            <style>
+              .ooef-loader{visibility:hidden;opacity:0;position:absolute;left:0;right:0;top:0;bottom:0;display:flex;justify-content:center;align-items:center;flex-direction:column;animation:ooLoadingIn 10s ease;-webkit-animation:ooLoadingIn 10s ease;animation-fill-mode:forwards;overflow:hidden}
+              @keyframes ooLoadingIn{0%{visibility:hidden;opacity:0}20%{visibility:visible;opacity:0}100%{visibility:visible;opacity:1}}
+              @-webkit-keyframes ooLoadingIn{0%{visibility:hidden;opacity:0}20%{visibility:visible;opacity:0}100%{visibility:visible;opacity:1}}
+              .ooef-loader>div,.ooef-loader>div:after{border-radius:50%;width:2.5rem;height:2.5rem}
+              .ooef-loader>div{font-size:10px;position:relative;text-indent:-9999em;border:.25rem solid #f5f5f5;border-left:.25rem solid #55c4cf;-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);-webkit-animation:ooLoading 1.1s infinite linear;animation:ooLoading 1.1s infinite linear}
+              .ooef-loader.error>div{border-left:.25rem solid #ff4500;animation-duration:5s}
+              @-webkit-keyframes ooLoading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+              @keyframes ooLoading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+            </style>
+            <div aria-live="polite" role="status"><div>Loading...</div></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- OrderOnline Script -->
+  <script>
+    if (typeof xLogError != 'function') {
+      var xLogError = function (error) {
+        var req = new XMLHttpRequest();
+        var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+        var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+        req.open('POST', 'https://api.orderonline.id/log', true);
+        req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        req.send(params);
+      };
+    }
+    try {
+      if (typeof xEmbedScript != 'function') {
+        var xEmbedScript = function () {
+          !function(w, d, e, v, id, t, s) {
+            if (d.getElementById(id)) return;
+            t = d.createElement(e); t.async = !0; t.src = v; t.id = id;
+            s = d.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
+          }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+        };
+      }
+      if (typeof xEmbedInit != 'function') {
+        var xEmbedInit = function (w, n) {
+          if (w.ooe) return;
+          n = w.ooe = function() { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) };
+          if (!w._ooe) w._ooe = n; n.push = n; n.loaded = !0; n.version = '8.0.4'; n.queue = [];
+        };
+      }
+      xEmbedInit(window);
+      ooe('setup', 'redirect', 'https://emma.orderonline.id');
+      ooe('init', '5f16831a9d8e8e4fb67472e5', '6918bcd8742fb2c42000ccc5', null, 'oo-embed-form-t7guihgh6tf-5569', {
+        "mode":"page",
+        "action":"Klik untuk pemesanan",
+        "title":"Form Pemesanan",
+        "triggerPixel":true,
+        "triggerGtm":false
+      });
+      if (!window.jQuery) {
+        !function(w, d, e, v, id, t, s) {
+          if (d.getElementById(id)) return;
+          t = d.createElement(e); t.async = !0; t.src = v; t.id = id;
+          t.addEventListener('load', xEmbedScript);
+          s = d.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
+        }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+      } else {
+        xEmbedScript();
+      }
+    } catch (e) {
+      xLogError(e);
+      throw e;
+    }
+  </script>
+
+</body>
+</html>
